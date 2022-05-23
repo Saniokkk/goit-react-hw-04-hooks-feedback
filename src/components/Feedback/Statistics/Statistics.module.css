@@ -1,0 +1,23 @@
+.result {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+.positive {
+  border-color: rgb(73, 219, 32);
+  background-color: rgba(73, 219, 32, 0.5);
+}
+
+.neutral {
+  border-color: rgb(159, 171, 156);
+  background-color: rgba(159, 171, 156, 0.5);
+}
+
+.bad {
+  border-color: rgb(239, 69, 27);
+  background-color: rgba(239, 69, 27, 0.5);
+}
